@@ -299,60 +299,7 @@ img {
   flex-shrink: 0
 }
 
-/* ===== TRUSTED ===== */
-.trusted {
-  padding: 2.5rem 0;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  background: var(--white)
-}
 
-.trusted-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 clamp(1.25rem, 4vw, 3rem);
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
-  flex-wrap: wrap
-}
-
-.trusted-label {
-  font-size: .78rem;
-  font-weight: 600;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--ink-xlight);
-  flex-shrink: 0
-}
-
-.trusted-logos {
-  display: flex;
-  align-items: center;
-  gap: clamp(1.5rem, 3vw, 3rem);
-  flex-wrap: wrap
-}
-
-.t-logo {
-  display: flex;
-  align-items: center;
-  gap: .45rem;
-  font-family: var(--serif);
-  font-size: 1.05rem;
-  font-weight: 400;
-  color: var(--ink-light);
-  letter-spacing: .03em;
-  opacity: .6;
-  transition: opacity .2s
-}
-
-.t-logo:hover {
-  opacity: 1
-}
-
-.t-logo svg {
-  flex-shrink: 0
-}
 
 /* ===== SECTION SHARED ===== */
 .s-label {
